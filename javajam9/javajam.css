@@ -44,23 +44,6 @@ th, td {padding: 10px; text-align: left; }
 tr:nth-child(odd) { background-color: #D2B48E; }
 form { display: flex; flex-direction: column; padding-left: 1em; width: 80%; }
 input, textarea { margin-bottom: .5em; }
-/* Form element selector */
-form {
-      width: 40%;
-      display: grid;
-      grid-template-columns: 6em 1fr;
-      gap: 1em;
-    }
-    
-    /* Attribute selector for the submit button */
-    input[type="submit"] {
-      grid-column: 2;
-      width: 9em;
-    }
-    
-    /* ID selector for setting the background image */
-    #hero {
-      background-image: url('herojobs.jpg');
-      background-size: cover; /* Ensures the image covers the container */
-      background-position: center; /* Centers the image */
-    }
+form { width: 40%; display: grid; grid-template-columns: 6em 1fr; gap: 1em; }
+input[type="submit"] { grid-column: 2; width: 9em; }
+#herojobs{ background-image: url('herojobs.jpg'); background-size: cover; background-position: center; }
