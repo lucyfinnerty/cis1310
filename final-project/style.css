@@ -13,10 +13,16 @@ footer { background-color: #c5aae7; font-size: small; font-style: italic; text-a
         min-width: 900px; max-width: 1280px; box-shadow: 0px 0px 5px 2px black;
          padding: 0; }
 nav a { text-decoration: none; }
+
+
+
+
+
 h4 { background-color: #D2B48C; font-size: 1.2em; padding-left: 3em; padding-right: 2em; padding-bottom: 0em; 
    text-transform: uppercase; border-bottom: 1px solid #000000; clear: left}
 h3 { color:#8C3826; padding-left: 3em; padding-right: 2em; }
 dt { color: #8C3826; }
+
 main {padding-left: 0; padding-right: 0; padding-bottom: 2em; display: block; 
 margin-left: 200px; padding-top: 0; background-color: #b1b9eb; overflow: auto;}
 .details { padding-left: 20%; padding-right: 20%; overflow: auto; }
