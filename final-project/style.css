@@ -1,3 +1,12 @@
+/*
+ Name: Lucy Finnerty
+ Date: 12/13/24
+ FA24 CIS-1310-HY001
+
+ Final Project - Lucy's Music Library
+ CSS for index, collection, and send html files
+ */
+ 
 * { box-sizing: border-box; }
 body { 
     background-color: #4b0947;
@@ -83,7 +92,8 @@ nav a {
     text-decoration: none; 
     color: #ba95e7;
 }
-nav a:hover { color: #218f2a; }
+nav a.active{color: #e5a3ee;}
+nav a:hover { color: #f0e9f1; }
 nav ul { list-style-type: none; padding-left: 10px; }
 nav ul li { padding: 10px;}
 
@@ -178,6 +188,18 @@ th, td {
     vertical-align: top;
     word-wrap: break-word   ;
 }
+th {
+    text-decoration: underline;
+}
+td img {
+    transition: transform 0.3s,  box-shadow 0.5s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+td img:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8);
+}
 tr:nth-child(odd) { 
     background-color: #ba95e7; 
 }
@@ -186,10 +208,13 @@ span {
     font-weight: bold;
 }
 
-p { padding-left: 3em; padding-right: 2em; }
-div { padding-left: 3em; padding-right: 2em; }
-ul { padding-left: 3em; padding-right: 2em; }
+/* send.html form */
 form { display: flex; flex-direction: column; padding-left: 1em; width: 80%; }
 input, textarea { margin-bottom: .5em; }
 form { width: 40%; display: grid; grid-template-columns: 6em 1fr; gap: 1em; }
 input[type="submit"] { grid-column: 2; width: 9em; }
+
+/* misc */
+p { padding-left: 3em; padding-right: 2em; }
+div { padding-left: 3em; padding-right: 2em; }
+ul { padding-left: 3em; padding-right: 2em; }

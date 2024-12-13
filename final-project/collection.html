@@ -1,32 +1,40 @@
+<!-- 
+ Name: Lucy Finnerty
+ Date: 12/13/24
+ FA24 CIS-1310-HY001
+
+ Final Project - Lucy's Music Library
+ -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!-- start of head -->
     <title>My Collection</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-</head>
-<body>
-    <div id="wrapper">
-        <header>
+</head> <!-- end of head -->
+<body> <!-- start of body -->
+    <div id="wrapper"> <!-- start of wrapper -->
+        <header> <!-- header and logo -->
             <img src="recordlogo.png" alt="recordlogo">
             <a href="index.html"><h1>Lucy's Music Library</h1></a>
         </header>
-    <nav>
+    <nav> <!-- nav bar -->
         <ul>
             <li><a href="index.html">Home</a></li>  
-            <li><a href="collection.html">Collection</a> </li>
+            <li><a href="collection.html" class="active">Collection</a> </li>
             <li><a href="send.html">Request a Song</a></li>
         </ul>
     </nav>
-    <main>
+    <main> <!-- main content -->
         <h2>My Collection</h2>
         <p>
             This here is a small portion of my ongoing CD collection in real life. I have about 60-70 in total, but
             these are my favorites. When an album is selected, you'll be transported to my number one song off
             that album. Each of these albums are 5/5s in my book, so I hope you can give them a try.
         </p><br>
+        <!-- collection section -->
         <section class="collection">
             <figure>
                 <a href="" target="_blank"><img src="imgs/inhaler2.jpg" alt="inhaler2" style="width: 200px; height: 200px;"></a>
@@ -87,11 +95,12 @@
                 <a href="" target="_blank"><img src="imgs/backseatlovers.jpg" alt="backseatlovers" style="width: 200px; height: 200px;"></a>
                 <figcaption>When We Were Friends - The Backseat Lovers</figcaption>
             </figure>
-        </section>
+        </section> <!-- end of collection section -->
+        <!-- recommendations section -->
         <section class="recommendations">
             <br><h2>Recommendations</h2>
-            <table>
-                <thead>
+            <table> 
+                <thead> <!-- table heading -->
                     <tr>
                         <th>Album</th>
                         <th>Rating</th>
@@ -99,48 +108,58 @@
                         <th>Description</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody> <!-- table body -->
                     <tr>
                         <td>
                             <img src="imgs/aphextwins.png" alt="aphextwins" style="width: 100px; height: 100px;"><br>
                             <span>Selected Ambient Works 85-92 - Aphex Twins</span>
                         </td>
-                        <td>★★★☆☆</td>
-                        <td>Xtal 4:53</td>
-                        <td>description</td>
+                        <td><span style="font-size: x-large;">★★★☆☆</span></td>
+                        <td><span style="font-weight: bold; font-size: medium;">Xtal</span><br>Time: 4:53</td>
+                        <td>This album is a collection of ecletic sounds. Each song different from the one before and after it.
+                            I like to listen to this album while studying or doing tasks where I need to be completely focused.</td>
                     </tr>
                     <tr>
                         <td><img src="imgs/thirdeyeblind.jpg" alt="thirdeyeblind" style="width: 100px; height: 100px;"><br>
                             <span>Self-titled - Third Eye Blind</span>
                         </td>
-                        <td>★★★★☆</td>
-                        <td>I Want You 4:29</td>
-                        <td>description</td>
+                        <td><span style="font-size: x-large;">★★★★☆</span></td>
+                        <td ><span style="font-weight: bold; font-size: medium;">I Want You</span><br>Time: 4:29</td>
+                        <td>This album contains a lot of radio hits that encompass those 90s alternative/pop rock and post-grunge
+                            sounds. Every song is a hit and is very nostaglic -- reminds me of when I was a  child in the backseat 
+                            of my parent's cars, radio on.
+                        </td>
                     </tr>
                     <tr>
                         <td><img src="imgs/royblair2.png" alt="royblair2" style="width: 100px; height: 100px;"><br>
                             <span>Graffiti - Roy Blair</span>
                         </td>
-                        <td>★★★☆☆</td>
-                        <td>Fantazia 5:53</td>
-                        <td>description</td>
+                        <td><span style="font-size: x-large;">★★★☆☆</span></td>
+                        <td><span style="font-weight: bold; font-size: medium;">Fantazia</span><br>Time: 5:53</td>
+                        <td>This album was a long time coming. Graffiti EP blew me away, but now having the complete project, I've come
+                            to love the kind of muscian Roy Blair is. His sounds are so unique and the timing/way he manipulates his voice
+                            is so genius.
+                        </td>
                     </tr>
                     <tr>
                         <td><img src="imgs/cocteautwins.jpg" alt="cocteautwins" style="width: 100px; height: 100px;"><br>
                             <span>Four Calendar Cafe - Cocteau twins</span>
                         </td>
-                        <td>★★★★☆</td>
-                        <td>Know Who You Are At Every Age 3:40</td>
-                        <td>description</td>
+                        <td><span style="font-size: x-large;">★★★★☆</span></td>
+                        <td><span style="font-weight: bold; font-size: medium;">Know Who You Are At Every Age</span><br>Time: 3:40</td>
+                        <td>This album transports me into another dimension. Elizabeth Fraser, lead singer, has an ethereal voice which
+                            pairs well with the dream pop instrumentals. Each song is soft, subtle, and I feel like I'm laying in grass
+                            on a warm summer day, lemonade in hand.
+                        </td>
                     </tr>
                 </tbody>
             </table>
-        </section>
-    </main>
+        </section> <!-- end of recommendations section -->
+    </main> <!-- end of main-->
     <footer>
         Copyright &copy; 2024 Music Library<br>
         <a href="mailto:lucy@finnerty.com">lucy@finnerty.com</a>
     </footer>
-    </div>
-</body>
+    </div> <!-- end of wrapper -->
+</body> <!-- end of body -->
 </html>
